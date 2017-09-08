@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.company.weedlook.collectionweed.views.main.details.DetailsActivity">
+
+    <EditText
+        android:id="@+id/detailsEtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_bordered_primary"
+        android:hint="Agrega aquí factores de rigor tales como: presencia, aroma, sabor, efecto, tiempo de floración"
+        android:lines="5"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:paddingLeft="16dp"></CalendarView>
+
+
+</LinearLayout>
+

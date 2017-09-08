@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTintMode="screen"
+    android:padding="24dp"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center_vertical">
+    
+    <EditText
+        android:inputType="text"
+        android:hint="¿nombre cepa?"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:id="@+id/nameEt"
+        android:background="@drawable/bg_white_bordered_primary"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+    <EditText
+        android:inputType="text"
+        android:hint="¿variedad?"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:id="@+id/varietyEt"
+        android:background="@drawable/bg_white_bordered_primary"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+    <ImageButton
+        android:id="@+id/rememberfavoriteIb"
+        android:layout_width="54dp"
+        android:src="@mipmap/ic_save_weed_24dp"
+        android:theme="@style/AccentButton"
+        android:layout_height="54dp"
+        android:scaleType="centerCrop"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+</LinearLayout>
